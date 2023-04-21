@@ -1,0 +1,32 @@
+[    0.418486] ACPI: bus type USB registered
+[    0.418486] usbcore: registered new interface driver usbfs
+[    0.418486] usbcore: registered new interface driver hub
+[    0.418486] usbcore: registered new device driver usb
+[    0.552164] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.554966] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+[    0.571138] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+[    0.571204] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+[    0.571206] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.571208] usb usb1: Product: EHCI Host Controller
+[    0.571209] usb usb1: Manufacturer: Linux 5.15.0-69-generic ehci_hcd
+[    0.571210] usb usb1: SerialNumber: 0000:00:0b.0
+[    0.571512] hub 1-0:1.0: USB hub found
+[    0.574066] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.577147] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+[    0.639519] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.15
+[    0.639524] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.639526] usb usb2: Product: OHCI PCI host controller
+[    0.639527] usb usb2: Manufacturer: Linux 5.15.0-69-generic ohci_hcd
+[    0.639529] usb usb2: SerialNumber: 0000:00:06.0
+[    0.639782] hub 2-0:1.0: USB hub found
+[    0.642784] uhci_hcd: USB Universal Host Controller Interface driver
+[    1.101907] usb 2-1: new full-speed USB device number 2 using ohci-pci
+[    1.435598] usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+[    1.435603] usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+[    1.435605] usb 2-1: Product: USB Tablet
+[    1.435606] usb 2-1: Manufacturer: VirtualBox
+[    1.459430] usbcore: registered new interface driver usbhid
+[    1.459434] usbhid: USB HID core driver
+[    1.462587] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+[    1.463139] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+[   16.273557] audit: type=1400 audit(1682080201.123:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ippusbxd" pid=580 comm="apparmor_parser"
